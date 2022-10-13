@@ -63,7 +63,6 @@ public class Employee {
     }
     public double raiseSalary(){
         int workedYear = 2021 - hireYear;
-        double lastSalary;
         if(workedYear < 10){
             return (salary * 0.05);      
         }else if(9 < workedYear && workedYear < 20){
